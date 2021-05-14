@@ -33,7 +33,7 @@ describe('user', () => {
     });
   });
 
-  describe('sayHello', () => {
+  describe('sayHello method', () => {
     it('it will return a string', () => {
       const user = new User('Jane', 'Doe');
       const actualHelloStr = user.sayHello('Bob');
