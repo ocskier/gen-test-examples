@@ -1,0 +1,16 @@
+{
+  "name": "sandbox-testing",
+  "version": "1.0.0",
+  "description": "testing sandbox for async",
+  "main": "user.js",
+  "scripts": {
+    "test": "mocha tests/*"
+  },
+  "keywords": [],
+  "author": "Jon Jackson",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  }
+}
